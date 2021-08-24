@@ -324,3 +324,9 @@ span b {
 .transparent {
     color: transparent;
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+}
