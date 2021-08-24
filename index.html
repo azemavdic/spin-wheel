@@ -1,54 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!--------------->
-    <!-- SPINNING WHEEL -->
-    <!--------------->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!--------------->
+        <!-- SPINNING WHEEL -->
+        <!--------------->
 
-    <section class="wheel">
-      <div class="container">
-        <div class="mainbox" id="mainbox">
-          <div class="box" id="box">
-            <div class="box1">
-              <span class="span1"><b>Žao nam je</b></span>
-              <span class="span2"><b>20% popust</b></span>
-              <span class="span3"><b>50% popust</b></span>
-              <span class="span4"><b>Bili ste blizu</b></span>
+        <section class="wheel">
+            <div class="container">
+                <div class="mainbox" id="mainbox">
+                    <div class="box" id="box">
+                        <div class="box1">
+                            <span class="span1"><b>Žao nam je</b></span>
+                            <span class="span2"><b>20% popust</b></span>
+                            <span class="span3"><b>50% popust</b></span>
+                            <span class="span4"><b>Bili ste blizu</b></span>
+                        </div>
+                        <div class="box2">
+                            <span class="span1"><b>Okreni ponovo</b></span>
+                            <span class="span2"><b>10% popust</b></span>
+                            <span class="span3"><b>30% popust</b></span>
+                            <span class="span4"><b>40% popust</b></span>
+                        </div>
+                    </div>
+                    <button class="spin" onclick="spinWheel()">ZAVRTI</button>
+                    <div class="message" id="message">
+                        <a
+                            href="https://vratimozdravlje.com/bp/ba/naturaactive/lp/6/"
+                        >
+                            <p style="font-weight: 600">ČESTITAMO!</p>
+                            <p>
+                                Osvojili ste popust od <br />
+                                <br />
+                                <span
+                                    style="
+                                        font-weight: 600;
+                                        font-size: 5rem;
+                                        color: #ff5722;
+                                    "
+                                    >50%</span
+                                >
+                            </p>
+                            <p>Kliknite ovdje da iskoristite popust!</p>
+                        </a>
+                    </div>
+                    <div class="fireworks">
+                        <img src="/assets/fireworks.gif" />
+                    </div>
+                </div>
             </div>
-            <div class="box2">
-              <span class="span1"><b>Okreni ponovo</b></span>
-              <span class="span2"><b>10% popust</b></span>
-              <span class="span3"><b>30% popust</b></span>
-              <span class="span4"><b>40% popust</b></span>
-            </div>
-          </div>
-          <button class="spin" onclick="spinWheel()">ZAVRTI</button>
-          <div class="message" id="message">
-            <a href="https://vratimozdravlje.com/bp/ba/naturaactive/lp/6/">
-              <p style="font-weight: 600">ČESTITAMO!</p>
-              <p>
-                Osvojili ste popust od <br />
-                <br />
-                <span style="font-weight: 600; font-size: 5rem; color: #ff5722"
-                  >50%</span
-                >
-              </p>
-              <p>Kliknite ovdje da iskoristite popust!</p>
-            </a>
-          </div>
-          <div class="fireworks">
-            <img src="/assets/fireworks.gif" />
-          </div>
+        </section>
+
+        <div class="buyers" id="buyer">
+            <!-- <div class="cont">
+                <div class="image">
+                    <i class="far fa-thumbs-up"></i>
+                </div>
+                <div class="buyers-box">
+                    <div class="name">John Doe <span>, Srebrenik</span></div>
+                    <div class="desc">Kupio 3 komada Natura Active</div>
+                    <small>Upravo sada</small>
+                </div>
+            </div> -->
         </div>
-      </div>
-    </section>
-    <script src="main.js"></script>
-  </body>
+
+        <script src="main.js"></script>
+    </body>
 </html>
