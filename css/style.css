@@ -342,6 +342,13 @@ span b {
     html {
         font-size: 40%;
     }
+
+    .span1 {
+        top: 11.4rem;
+    }
+    .span3 {
+        left: 11.4rem;
+    }
 }
 
 @media (max-width: 420px) {
@@ -353,5 +360,12 @@ span b {
 @media (max-width: 370px) {
     html {
         font-size: 30%;
+    }
+
+    .span1 {
+        top: 11rem;
+    }
+    .span3 {
+        left: 11rem;
     }
 }
