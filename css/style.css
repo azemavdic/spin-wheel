@@ -299,6 +299,7 @@ span b {
 .image i {
     font-size: 5rem;
     color: #4ae723;
+    padding-left: 1rem;
 }
 
 .buyers-box {
