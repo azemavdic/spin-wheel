@@ -329,4 +329,11 @@ span b {
     html {
         font-size: 45%;
     }
+
+    .span1 {
+        top: 11.6rem;
+    }
+    .span3 {
+        left: 11.6rem;
+    }
 }
