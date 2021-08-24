@@ -366,7 +366,10 @@ span b {
         top: 10.9rem;
     }
     .span2 {
-        top: 11.9rem;
+        top: 11.8rem;
+    }
+    .span4 {
+        left: 11.8rem;
     }
     .span3 {
         left: 10.9rem;
