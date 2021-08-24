@@ -13,10 +13,13 @@ function spinWheel() {
 
     box.style.transform = 'rotate(9270deg)';
 
+    buyers.style.display = 'none';
+
     mainbox.classList.add('animate');
     setTimeout(function () {
         message.classList.add('message-animation');
         fireworks.classList.add('display');
+        buyers.style.display = 'block';
     }, 8100);
 
     setTimeout(function () {

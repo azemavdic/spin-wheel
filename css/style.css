@@ -274,7 +274,7 @@ span b {
 
 .buyers {
     display: block;
-    position: absolute;
+    position: fixed;
     bottom: 1%;
     left: 1%;
     background: #fff;
@@ -327,7 +327,7 @@ span b {
 
 @media (max-width: 768px) {
     html {
-        font-size: 40%;
+        font-size: 45%;
     }
 
     .span1 {
@@ -335,5 +335,23 @@ span b {
     }
     .span3 {
         left: 11.6rem;
+    }
+}
+
+@media (max-width: 470px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 420px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media (max-width: 370px) {
+    html {
+        font-size: 30%;
     }
 }
