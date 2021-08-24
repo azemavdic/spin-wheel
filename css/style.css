@@ -36,7 +36,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 
@@ -274,7 +274,7 @@ span b {
 
 .buyers {
     display: block;
-    position: fixed;
+    position: absolute;
     bottom: 2%;
     left: 1%;
     background: #fff;
