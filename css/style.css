@@ -336,6 +336,16 @@ span b {
     .span3 {
         left: 11.6rem;
     }
+
+    .name {
+        font-size: 1.8rem;
+    }
+
+    .desc {
+        font-size: 1.6rem;
+        margin-top: 1.6rem;
+        margin-bottom: 1.2rem;
+    }
 }
 
 @media (max-width: 470px) {
