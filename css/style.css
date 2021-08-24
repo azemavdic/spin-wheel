@@ -355,6 +355,10 @@ span b {
     html {
         font-size: 35%;
     }
+
+    .span2 {
+        top: 11.9rem;
+    }
 }
 
 @media (max-width: 370px) {
@@ -364,12 +368,6 @@ span b {
 
     .span1 {
         top: 10.9rem;
-    }
-    .span2 {
-        top: 11.6rem;
-    }
-    .span4 {
-        left: 11.6rem;
     }
     .span3 {
         left: 10.9rem;
