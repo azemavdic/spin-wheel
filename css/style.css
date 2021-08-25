@@ -371,10 +371,23 @@ span b {
   margin: 5rem auto;
   transform: translate(-200%, -200%);
   transition: transform 2s ease-in;
+  border-radius: 5px;
 }
 
 .forma button {
   font-size: 1.9rem;
+}
+
+.form-title {
+  color: var(--white-text-color);
+  padding: 3.2rem;
+  background-color: var(--navbar-bg-color);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  width: 100%;
 }
 
 /* MEDIA QUERY */
