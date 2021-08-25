@@ -98,7 +98,7 @@ setInterval(function () {
     buyers.innerHTML = `<div class="cont">
                 <div class="image">
                     <i class="far fa-thumbs-up"></i>
-                </div> 
+                </div>
                 <div class="buyers-box">
                 <div class="name">${names[ind]} <span>, ${
         gradovi[ind]
@@ -116,10 +116,10 @@ setInterval(function () {
         ind = 1;
     }
     console.log(ind);
-}, 8000);
+}, 3000);
 
 setInterval(function () {
     buyers.classList.add('transparent');
     buyers.style.transform = 'translateX(-200%)';
     ind--;
-}, 16000);
+}, 6000);
