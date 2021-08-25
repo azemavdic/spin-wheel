@@ -235,11 +235,14 @@ span b {
     color: var(--white-text-color);
     font-size: 4rem;
     line-height: 4rem;
-    margin-bottom: 3rem;
     font-family: 'Acme', sans-serif;
 }
 
 .message p:first-child {
+    margin-top: 5rem;
+}
+
+.message p:last-child {
     margin-top: 5rem;
 }
 
@@ -249,6 +252,27 @@ span b {
 @keyframes animateArrow {
     50% {
         right: -4rem;
+    }
+}
+
+.message span {
+    color: #ff5722;
+    font-weight: 600;
+    font-size: 6rem;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.1);
     }
 }
 
@@ -262,6 +286,11 @@ span b {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+}
+
+.check-icon {
+    color: #4ae723;
+    font-size: 7rem;
 }
 
 .display {

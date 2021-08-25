@@ -20,6 +20,7 @@ function spinWheel() {
         message.classList.add('message-animation');
         fireworks.classList.add('display');
         buyers.style.display = 'block';
+        mainbox.classList.remove('animate');
     }, 8100);
 
     setTimeout(function () {
